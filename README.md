@@ -15,13 +15,18 @@ Este proyecto es una API REST desarrollada con Node.js utilizando Express.js com
 git clone https://github.com/tuusuario/tuproyecto.git
 cd tuproyecto
 ```
+2. Crear archivo .env
+```
+PORT=3000
+DB_NAME=jokes
+```
 
-2. Instalar dependencias:
+3. Instalar dependencias:
 ```bash
 npm install
 ```
 
-3. Ejecutar proyecto:
+4. Ejecutar proyecto:
 ```bash
-npm install
+npm start
 ```
